@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+.header {
+    background-color: #04293B;
+    height: 80px;
+}
+
+.header__project-text {
+    font-size: 18px;
+}
+
+.main__expense-table,
+.main__employees,
+.main__final-expenses,
+.main__income,
+.main__kpi {
+    /* position: absolute; */
+    overflow: hidden;
+    transition-property: opacity, height, z-index;
+    transition-duration: 0.5s;
+}
+
+.disable {
+    opacity: 0;
+    z-index: -10;
+    transition: 0.5s;
+    height: 0;
+}
+
+.dop-modal {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    min-height: 100vh;
+    position: relative;
+}
+
+.content-img {
+    margin-bottom: -5px;
+}
+
+.employees-first {
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #f99f44;
+    text-align: center;
+}
+
+.logo__img {
+    width: 200px;
+}
+
+.header__project {
+    border: 1px solid #f99f44;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #ffffff;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.header__project:hover {
+    background-color: #f99f44;
+    transition: 0.3s;
+}
+
+.header__project-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.main__text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.yes,
+.no {
+    width: 120px;
+    margin-bottom: -6px;
+}
+
+.licensium {
+    display: block;
+    margin: 0 auto;
+}
+
+.licensium-button {
+    margin-bottom: -5px;
+}
+
+.expense-table {
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+.employees,
+.final-expense,
+.income,
+.kpi {
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color:  #f5f5f5;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #d5d5d5;
+    transition: 0.3s;
+}
+
+.btn_active {
+    cursor: default;
+    background-color: #d5d5d5;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.submit {
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.info {
+    width: 180px;
+    margin-bottom: -7px;
+}
+
+.additional-expenses {
+    margin-bottom: -5px;
+}
+
+.footer {
+    background-color: #04293b;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.juls {
+    border-radius: 20px;
+    background-color: #06344a;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.35);
+    padding: 12px 40px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+    position: relative;
+    transition: scale 0.3s;
+}
+
+.juls:hover,
+.denis:hover {
+    scale: 1.05;
+    transition: 0.3s;
+}
+.denis {
+    border-radius: 20px;
+    background-color: #06344a;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.35);
+    padding: 12px 40px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    transition: scale 0.3s;
+}
+
+.juls__photo,
+.denis__photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.juls__text,
+.denis__text {
+    color: white;
+}
+
+.footer__photo {
+    max-width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.telegramm {
+    width: 20px;
+}
+
+.svg {
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 5px 0 5px 0;
+    gap: 10px;
+}
+
+.footer__title {
+    color: white;
+    font-size: 30px;
+}
+
+.juls__name,
+.denis__name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main {
+    padding: 65px 0 65px;
+}
+
+.main__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    gap: 40px;
+}
+
+.table-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.add {
+    margin-bottom: -3px;
+}
+
+.add-category {
+    width: 140px;
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
+.denis__link,
+.juls__link {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

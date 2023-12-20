@@ -177,6 +177,33 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    transition-property: scale;
+    transition-duration: 0.3s;
+}
+
+.main__item:hover {
+    scale: 1.05;
+    transition: 0.3s;
+    background-color: #f99f44;
+}
+
+.main__item-svg {
+    transition: 0.3s;
+}
+
+.main__item:hover .main__item-svg {
+    fill: #06344a;
+    transition: 0.3s;
+}
+
+.main__item-link {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .denis__link,
