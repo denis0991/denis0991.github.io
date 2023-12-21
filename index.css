@@ -170,16 +170,21 @@
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.35);
-    padding: 20px;
+    padding: 30px 10px 30px;
     font-size: 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: relative;
-    transition-property: scale;
+    transition-property: scale, background-color ;
     transition-duration: 0.3s;
+}
+
+.svg-dr {
+    /* width: 130px; */
+    height: 150px;
 }
 
 .main__item:hover {
