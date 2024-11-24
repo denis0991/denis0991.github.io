@@ -1,0 +1,13 @@
+{
+    "type": "module",
+    "scripts" : {
+		"build" : "webpack",
+        "dev":   "webpack --mode development",
+	    "prod":  "webpack --mode production",
+        "watch": "webpack --mode development --watch"
+	},
+    "devDependencies": {
+        "webpack": "^5.96.1",
+        "webpack-cli": "^5.1.4"
+    }
+}
